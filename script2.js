@@ -76,7 +76,7 @@ function resultStyles(result) {
     winner.style.backgroundColor = "green";
   } else if (result == "You lose!") {
     winner.style.backgroundColor = "red";
-  } else { 
+  } else {
     winner.style.backgroundColor = "gray";
   }
   setTimeout(() => {
