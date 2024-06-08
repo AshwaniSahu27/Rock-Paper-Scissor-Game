@@ -88,5 +88,5 @@ let choiceInfo = document.querySelector(".info");
 
 function choiceData(userInput, computerInput) {
   console.log(userInput, computerInput);
-  choiceInfo.innerHTML = `Your choice is ${userInput} and computer choice is <h4 id="computer">${computerInput}</h4> `;
+  choiceInfo.innerHTML = `Your choice is <span class="youChoice">${userInput}</span> and computer choice is <span class="comChoice">${computerInput}</span> `;
 }
